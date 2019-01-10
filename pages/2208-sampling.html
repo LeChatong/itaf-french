@@ -1,0 +1,475 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css"/>
+    <link rel="script" href="../js/bootstrap.js"/>
+    <title>2208 : ÉCHANTILLONNAGE / SAMPLING</title>
+</head>
+<body style="text-align: justify">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">ITAF</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+
+    <div>
+        <b><span  class="h1">GUIDES GENERALES / GENERAL GUIDELINES </span></b>
+    </div>
+    <hr/>
+    <h2>ÉCHANTILLONNAGE / SAMPLING</h2>
+    <hr/>
+
+    <b><h4>1. Objet de la directive et lien avec les normes</h4></b>
+    <h5>1.1 Objectifs</h5><hr/>
+    <p>
+        Le but de cette directive est de guider les professionnels de l’audit et de la certification des IS dans la conception
+        et sélectionnez un échantillon d'audit et évaluez les résultats de l'échantillon. Un échantillonnage et une évaluation appropriés aideront à satisfaire aux exigences en matière de preuves suffisantes et appropriées.
+    </p>
+    <p>
+        Les professionnels de l'audit et de la certification des entreprises doivent prendre en compte cette directive pour déterminer comment mettre en œuvre les normes associées,
+        faire preuve de jugement professionnel dans son application, être prêt à justifier tout écart et rechercher des orientations supplémentaires si cela est jugé nécessaire.
+    </p>
+
+    <h5>1.2 Lien avec Normes</h5><hr/>
+    <p>
+        •   Standard 1006  Compétence<br/>
+        •   Standard 1203  Exécution et supervision<br/>
+        •   Standard 1202  Évaluation du risque dans la planification<br/>
+        •   Standard 2205  Éléments probants<br/>
+    </p>
+    <h5>1.3 Terme d'utilisation</h5><hr/>
+    <p>
+        Ci-après, par la suite:<br/>
+        • La «fonction d’audit et d’assurance des SI» est appelée «fonction d’audit».<br/>
+        • Les «professionnels de l'audit et de la certification des SI» sont appelés «professionnels».
+    </p>
+    <br/>
+    <b><h4>2. Contenu de la directive</h4></b>
+    <h5>2.1 Échantillonnage</h5><hr/>
+    <p>
+        Lorsqu’ils se forgent une opinion ou concluent, les professionnels n’examinent souvent pas l’ensemble des informations disponibles, car c’est parfois peu pratique (par exemple, il faut trop de temps à l’audité et aux professionnels pour
+        enquêter sur toutes les informations) et des conclusions valables peuvent être tirées à l'aide d'un échantillon de vérification.
+    </p>
+    <p>
+        Lorsqu'ils utilisent des méthodes d'échantillonnage statistiques ou non statistiques, les professionnels doivent concevoir et sélectionner
+        un échantillon d’audit, effectuer les procédures d’audit et évaluer les résultats de l’échantillon afin d’obtenir des preuves suffisantes et appropriées pour permettre la conclusion Lorsqu'ils utilisent des méthodes d'échantillonnage pour tirer des conclusions sur l'ensemble de la population, les professionnels doivent recourir à un échantillonnage statistique.
+    </p>
+
+    <h5>2.2 Conception de l'échantillon</h5><hr/>
+    <p>
+        Lors de la conception de la taille et de la structure d’un échantillon d’audit, les professionnels doivent prendre en compte le SI spécifique.
+        objectifs de l’audit, les procédures d’audit les plus susceptibles d’atteindre ces objectifs, la nature des
+        population, sous-groupes pertinents au sein de la population et méthodes d’échantillonnage et de sélection. En outre, lorsque l’échantillonnage est approprié, il convient de prendre en compte la nature des preuves demandées, les conditions d’erreur possibles et les causes profondes possibles.
+    </p>
+    <p>
+        Lors de la conception de l’échantillon d’audit, tout en tenant compte des objectifs de l’audit du SI, les professionnels doivent
+        considérer :<br/>
+         • Objet de l'échantillon<br/>
+         • Unité d'échantillonnage<br/>
+         • Population<br/>
+         • Risque d'échantillonnage et taille de l'échantillon<br/>
+         • erreur tolérable<br/>
+         • Distribution attendue sous-jacente (par exemple, Poisson, binomiale, normale, exponentielle)
+         Comportement dans le temps (par exemple, caractère saisonnier, diminution de la performance)<br/>
+         • Sous-populations ou sous-groupes qui existent naturellement et dont la pertinence opérationnelle devrait être prise en compte<br/>
+         • Valeurs éloignées<br/>
+         • Petites populations d'événements indésirables ou rares<br/>
+         • Données provenant d’outils de support externes, utilisées pour confirmer ou compléter les résultats de l’échantillonnage
+    </p>
+    <p>
+        Les professionnels devraient considérer le but de l'échantillon :<br/>
+         • Test de conformité / test des contrôles: procédure d’audit conçue pour évaluer le fonctionnement
+        l'efficacité des contrôles dans la prévention ou la détection et la correction des faiblesses matérielles. Exemples de
+        Les tests de conformité des contrôles, où l’échantillonnage pourrait être envisagé, incluent les droits d’accès des utilisateurs, les programmes.
+        modifier les procédures de contrôle, la documentation de procédure, la documentation de programme, le suivi des exceptions,
+        examen des journaux et des audits de licences de logiciels.<br/>
+         • Vérification approfondie / vérification des détails: procédure d’audit conçue pour détecter les faiblesses importantes.
+        au niveau de l'assertion. Voici des exemples de tests de corroboration pour lesquels un échantillonnage pourrait être envisagé:
+        reperformance d’un calcul complexe (par exemple, intérêts) sur un échantillon de comptes, un échantillon de transactions
+        se porter garant pour les pièces justificatives, etc.
+    </p>
+    <p>
+        L'unité d'échantillonnage dépend de l'objectif de l'échantillon. Pour les tests de conformité des contrôles, lorsque l'unité d'échantillonnage est un événement ou une transaction (par exemple, un contrôle tel que l'autorisation d'une facture), attribut
+        l'échantillonnage est généralement appliqué lors de la détermination des caractéristiques d'une population. Pour le fond
+        tests, où l'unité d'échantillonnage est souvent monétaire, l'échantillonnage de variables est fréquemment appliqué car il est
+        utilisé pour déterminer l'impact monétaire ou volumétrique des caractéristiques d'une population.
+    </p>
+    <p>
+        La population est l'ensemble des données que les professionnels souhaitent échantillonner pour tirer une conclusion sur la population. Par conséquent, la population à partir de laquelle l'échantillon est tiré doit être appropriée pour tester
+        l'efficacité de la conception et / ou du fonctionnement des contrôles, et vérifiée comme complète pour l'objectif et la portée de l'audit du système d'information.
+    </p>
+    <p>
+        Pour faciliter la conception efficiente et efficace de l'échantillon, une stratification de l'échantillonnage peut être appropriée.
+        La stratification est le processus consistant à diviser une population en sous-populations ayant des caractéristiques similaires explicitement.
+        définie, de sorte que chaque unité d'échantillonnage ne puisse appartenir qu'à une seule strate.
+    </p>
+    <p>
+        Lors de la détermination de la taille de l'échantillon, les professionnels doivent prendre en compte le risque d'échantillonnage, la quantité d'erreur susceptible d'être tolérée et la mesure dans laquelle des erreurs sont attendues. Le risque d’échantillonnage découle de la possibilité que la conclusion des professionnels soit différente de celle à laquelle aboutirait si l’ensemble du
+        population ont été soumis à la même procédure d’audit. Il existe deux types de risque d'échantillonnage :<br/>
+         • Le risque d’acceptation incorrecte - Une faiblesse importante est jugée improbable alors qu’en réalité, le
+        la population est matériellement erronée.<br/>
+         • Le risque de rejet incorrect: une faiblesse matérielle est considérée comme probable lorsque, en réalité, la population
+        n'est pas matériellement erronée.
+    </p>
+    <p>
+        La taille de l'échantillon est affectée par le niveau de risque d'échantillonnage que les professionnels sont disposés à accepter. Échantillonnage
+        Le risque doit également être pris en compte dans le modèle de risque d’audit et ses composants, le risque inhérent, le contrôle
+        et risque de détection, comme détaillé dans la norme 2202 Évaluation des risques dans la planification.
+    </p>
+    <p>
+        L'erreur tolérable est l'erreur maximale dans la population que les professionnels sont disposés à accepter et concluent néanmoins que l'objectif du test a été atteint.
+        Pour les tests de corroboration, l’erreur tolérable est liée au jugement des professionnels sur l’importance relative.
+        Dans les tests de conformité, il s'agit du taux maximal d'écart par rapport à une procédure de contrôle prescrite que les professionnels sont disposés à accepter.
+    </p>
+    <p>
+        Si les professionnels s’attendent à ce que des erreurs se produisent dans la population, il faut examiner un échantillon plus grand que celui où aucune erreur n’est prévue, afin de conclure que l’erreur réelle dans la population n’est pas supérieure à l’erreur tolérable attendue. Des échantillons plus petits sont justifiés lorsque la population devrait être exempte d’erreur.
+        Lors de l'estimation de l'erreur attendue dans une population, les professionnels doivent prendre en compte les éléments suivants :<br/>
+         • Niveaux d'erreur identifiés lors des audits précédents<br/>
+         • Changements dans les procédures de l'entreprise<br/>
+         • Données probantes issues d’une évaluation du système de contrôle interne et des résultats d’un examen analytique.
+        procédures et / ou résultats des tests préliminaires de la population
+    </p>
+    <p>
+        Les professionnels devraient envisager, le cas échéant, de faire appel à des spécialistes pour la conception et l'analyse d'approches d'échantillonnage complexes, telles que des échantillons aléatoires stratifiés qui doivent avoir une validité statistique, ou
+        échantillonnage basé sur les méthodes de contrôle de la qualité établies (par exemple, Six Sigma).
+    </p>
+    <p>
+        Les professionnels devraient-ils conclure que l’échantillonnage ne permet pas d’atteindre les objectifs de l’audit IS et
+        l'ensemble de la population est nécessaire, ils devraient envisager d'appliquer une assurance continue, car cela permet
+        tester toute la population de manière rapide et rentable.
+    </p>
+
+    <h5>2.3 Sélection de l'échantillon</h5><hr/>
+    <p>
+        Les professionnels doivent s'assurer que la population est complète et contrôler la sélection de l'échantillon afin de préserver l'indépendance de l'audit. Les professionnels doivent sélectionner les échantillons de manière à ce qu’ils soient
+        devrait être représentatif de la population en ce qui concerne les caractéristiques testées.
+    </p>
+    <p>
+        Pour qu'un échantillon soit représentatif de l'ensemble de la population, toutes les unités d'échantillonnage de la population doivent avoir:
+        une probabilité égale ou connue, non nulle, d'être sélectionnée. Cela implique l'utilisation de méthodes d'échantillonnage statistique, car elles impliquent l'utilisation de techniques permettant de tirer des conclusions construites mathématiquement sur l'ensemble de la population. Les professionnels doivent donc valider la complétude de la population pour
+        assurez-vous que l'échantillon est sélectionné dans un ensemble de données approprié.
+    </p>
+    <p>
+        L'échantillonnage non statistique est une approche utilisée par les professionnels qui souhaitent utiliser leur propre expérience,
+        connaissances et jugement professionnel pour déterminer un échantillon. Cette méthode implique un biais humain, car elle n’est pas basée sur les statistiques et ne garantit pas que chaque unité d’échantillonnage a une probabilité connue non nulle.
+        être sélectionnés et les résultats ne doivent donc pas être extrapolés à la population car l’échantillon est
+        peu susceptible d’être représentatif de l’ensemble de la population. Un échantillonnage non statistique peut être utilisé lorsque les résultats
+        sont nécessaires rapidement pour confirmer une proposition et ne doivent pas être utilisés pour tirer des conclusions construites mathématiquement concernant la population entière.
+    </p>
+    <p>
+        Il existe cinq méthodes d’échantillonnage couramment utilisées, divisées en méthodes d’échantillonnage statistique ou en méthodes statistiques.
+        méthodes d'échantillonnage non statistiques :<br/>
+         • Les méthodes d'échantillonnage statistique sont les suivantes:<br/>
+         - Échantillonnage aléatoire simple - Garantit que toutes les combinaisons d'unités d'échantillonnage de la population ont une chance égale de sélection<br/>
+         - Échantillonnage systématique: implique la sélection des unités d'échantillonnage en utilisant un intervalle fixe entre les sélections,
+        le premier intervalle ayant un début aléatoire. Exemples: échantillonnage en unités monétaires ou pondération en valeur.<br/>
+        sélection où chaque valeur monétaire individuelle (par exemple, 1000 $) dans la population se voit accorder une chance égale
+        de sélection. Comme, normalement, chaque unité monétaire ne peut pas être examinée séparément, l'élément qui comprend cette unité monétaire est sélectionné pour examen.
+        Cette méthode pondère systématiquement la sélection en faveur des plus grandes quantités. Un autre exemple consiste à sélectionner chaque «nième» unité d’échantillonnage.<br/>
+         - Échantillonnage aléatoire stratifié - garantit que toutes les unités d’échantillonnage de chaque sous-groupe ont une
+        chance de sélection non nulle.<br/>
+         Les professionnels devraient envisager d’utiliser un logiciel statistique pour calculer les écarts types et d’autres
+        statistiques sommaires pour les résultats de l'échantillonnage statistique.<br/>
+         • Les méthodes d'échantillonnage non statistiques sont les suivantes :<br/>
+         - Échantillonnage aléatoire - Les professionnels sélectionnent l’échantillon sans suivre de technique structurée,
+        éviter tout préjugé conscient ou prévisibilité. Cependant, l’analyse d’un échantillon aléatoire ne doit pas être
+        sur laquelle on se base pour former une conclusion sur la population.<br/>
+         - Échantillonnage par jugement - Les professionnels placent un biais sur l’échantillon (par exemple, toutes les unités d’échantillonnage sur une période donnée).
+        certaine valeur, le tout pour un type d’exception spécifique, tous les négatifs). Il convient de noter qu’un jugement
+        L’échantillon n’est pas basé sur les statistiques et les résultats ne doivent pas être extrapolés à la population car le
+        il est peu probable que l'échantillon soit représentatif de la population dans son ensemble.
+    </p>
+    <p>
+        Il existe deux méthodes de sélection couramment utilisées :<br/>
+         • Sélection sur les enregistrements et les sous-groupes de population; méthodes courantes sont :<br/>
+         - échantillonnage aléatoire simple<br/>
+         - Échantillonnage aléatoire stratifié<br/>
+         - Échantillonnage aléatoire<br/>
+         - échantillon de jugement<br/><br/>
+         • sélection sur des champs quantitatifs (unités monétaires, par exemple); méthodes courantes sont :<br/>
+         - échantillonnage aléatoire simple<br/>
+         - échantillonnage systématique
+    </p>
+
+    <h5>2.4 Évaluation des résultats de l'échantillon</h5><hr/>
+    <p>
+        Après avoir exécuté les procédures d’audit appropriées à l’objectif d’audit du système d’information considéré
+        échantillon, les professionnels doivent analyser les éventuelles erreurs détectées dans l’échantillon pour déterminer si
+        ce sont en fait des erreurs et, le cas échéant, leur nature et leur cause. Pour ceux qui sont considérés comme des erreurs réelles, les erreurs doivent être projetées de manière appropriée pour la population, mais uniquement si l'échantillonnage
+        La méthode utilisée est basée sur les statistiques.
+    </p>
+    <p>
+        Toute erreur éventuelle détectée dans l’échantillon doit être examinée pour déterminer si elle est réellement
+        les erreurs. Les professionnels doivent considérer les aspects qualitatifs des erreurs. Ceux-ci incluent la nature et
+        cause de l'erreur et son effet éventuel sur les autres phases de l'audit. Par exemple, des erreurs
+        qui résultent de l’échec d’un processus automatisé ont normalement des implications plus larges que
+        erreurs humaines.
+    </p>
+    <p>
+        Lorsque les éléments probants attendus concernant une unité d'échantillonnage spécifique ne peuvent pas être obtenus, les professionnels doivent
+        déterminer s'ils sont en mesure d'obtenir des éléments probants suffisants et appropriés en appliquant des procédures alternatives pour l'élément sélectionné ou
+        en sélectionnant et testant une unité d'échantillonnage de remplacement.
+    </p>
+    <p>
+        Les professionnels devraient envisager de projeter les résultats de l’échantillon sur la population avec une méthode de
+        projection cohérente avec la méthode utilisée pour sélectionner l'unité d'échantillonnage. La projection de l'échantillon peut
+        impliquent d’estimer l’erreur probable dans la population et d’estimer toute erreur supplémentaire qui pourrait ne pas avoir
+        détectés en raison de l’imprécision de la technique, ainsi que des aspects qualitatifs de toute
+        erreurs trouvées.
+    </p>
+    <p>
+        La discussion des résultats de l’échantillonnage non statistique (aléatoire ou discrétionnaire) doit être limitée à une
+        description des résultats de l'analyse de l'échantillon, dans le contexte de la population dans son ensemble.
+    </p>
+    <p>
+        Les professionnels doivent se demander si les erreurs dans la population pourraient dépasser l’erreur tolérable en:
+        en comparant l’erreur de population projetée à l’erreur tolérable estimée ou définie, en tenant compte des
+        les résultats d'autres procédures d'audit en rapport avec l'objectif de l'audit. L’erreur tolérable peut être estimée ou
+        définis par des critères d’audit, des normes de l’industrie, des exigences contractuelles, des spécifications de logiciel, etc.
+        l'erreur de population projetée dépasse l'erreur tolérable, les professionnels doivent réévaluer le risque d'échantillonnage
+        et, si ce risque est inacceptable, envisagez d'étendre la procédure d'audit, de recalculer la taille de l'échantillon à l'aide de l'erreur tolérable affinée et de tester les unités d'échantillonnage supplémentaires, ou d'effectuer d'autres procédures d'audit.
+    </p>
+
+    <h5>2.5 Documentation</h5><hr/>
+    <p>
+        Les documents de travail doivent inclure suffisamment de détails pour décrire clairement l'objectif de l'échantillonnage et les objectifs de l'échantillonnage.
+        processus utilisé. Les documents de travail devraient inclure :<br/>
+         • Objet de l'échantillon, y compris l'unité d'échantillonnage<br/>
+         • Source de la population, définition de la population et relation avec la portée de l'audit<br/>
+         • les paramètres d’échantillonnage, par exemple la taille de l’échantillon (y compris toute considération liée au risque d’échantillonnage),
+        démarrage aléatoire ou numéro de graine ou méthode selon laquelle le démarrage aléatoire a été obtenu, intervalle d'échantillonnage.<br/>
+         • méthode d'échantillonnage<br/>
+         • Articles sélectionnés et, si un échantillonnage non statistique est utilisé, justification des éléments sélectionnés.<br/>
+         • les détails des tests d’audit effectués, y compris l’évaluation des erreurs et, le cas échéant, les
+        procédures d'audit.<br/>
+         • Conclusions atteintes
+    </p>
+
+    <b><h4>3. Lien avec les normes et les processus COBIT 5</h4></b>
+    <h5>3.1 Lien avec Normes</h5><hr/>
+    <p>
+        Le tableau donne un aperçu de:<br/>
+        • Les normes d'audit et de certification ISACA IS les plus pertinentes directement prises en charge par cette directive.<br/>
+        • Les énoncés standard les plus pertinents pour cette directive<br/>
+        <b>Remarque:</b> Seules les déclarations standard relatives à cette directive sont répertoriées.
+    </p>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Titres</th>
+            <th scope="col">Déclarations pertinentes</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1006  Compétence</td>
+            <td>
+                <P>
+                    Les professionnels de l'audit et de la certification des systèmes d'information, conjointement avec les autres personnes participant à la mission, doivent posséder les compétences et la maîtrise appropriées pour mener à bien des missions d'audit et de certification des systèmes d'information et être professionnellement compétents pour effectuer le travail requis.
+                </p>
+                <p>
+                    Les professionnels de l'audit et de l'assurance des SI, collectivement avec d'autres personnes participant à la mission, doivent posséder une connaissance adéquate du sujet traité.
+                </P>
+            </td>
+        </tr>
+        <tr>
+            <td>1203  Exécution et supervision</td>
+            <td>
+                <p>
+                    Les professionnels de l'audit et de l'assurance des systèmes informatiques effectueront les travaux conformément au plan d'audit approuvé des systèmes d'information, afin de couvrir les risques identifiés, et dans les délais impartis.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>1202  Évaluation du risque dans la planification</td>
+            <td>
+                <p>
+                    La fonction d'audit et de vérification des SI utilise une approche appropriée d'évaluation des risques et une méthodologie à l'appui pour élaborer le plan d'audit global des SI et déterminer les priorités pour l'affectation efficace des ressources d'audit du SI.
+                </p>
+                <p>
+                    Les professionnels de l'audit et de l'assurance des systèmes informatiques doivent identifier et évaluer les risques liés au domaine sous revue lors de la planification des missions individuelles.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>2205  Éléments probants</td>
+            <td>
+                <p>
+                    Les professionnels de l'audit et de l'assurance des SI doivent obtenir des preuves suffisantes et appropriées pour tirer des conclusions raisonnables sur lesquelles baser les résultats de la mission.
+                </p>
+                <p>
+                    Les professionnels de l'audit et de l'assurance des systèmes informatiques doivent évaluer le caractère suffisant des preuves réunies pour appuyer leurs conclusions et atteindre leurs objectifs.
+                </p>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <h5>3.2 Liaison avec les processus COBIT 5</h5><hr/>
+    <p>
+        Le tableau donne un aperçu des plus pertinents:<br/>
+        • Processus COBIT 5<br/>
+        • objectif du processus COBIT 5<br/><br/>
+        Les activités spécifiques exécutées dans le cadre de l'exécution de ces processus sont décrites dans COBIT 5: Processus habilitants.
+    </p>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Processus COBIT 5</th>
+            <th scope="col">But du processus</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>EDM03 Assurer l'optimisation des risques.</td>
+            <td>
+                Assurez-vous que le risque informatique lié à l'entreprise ne dépasse pas l'appétit pour le risque et la tolérance au risque,
+                que l'impact du risque informatique sur la valeur de l'entreprise est identifié et géré, ainsi que le potentiel de
+                les manquements à la conformité sont minimisés.
+            </td>
+        </tr>
+        <tr>
+            <td>APO12 Gérer les risques</td>
+            <td>
+                Intégrez la gestion des risques d'entreprise liés aux technologies de l'information à la gestion globale du risque,
+                et équilibrez les coûts et les avantages de la gestion des risques d'entreprise liés aux technologies de l'information.
+            </td>
+        </tr>
+        <tr>
+            <td>MEA02 Surveiller, évaluer et évaluer le système de contrôle interne.</td>
+            <td>
+                Obtenir de la transparence pour les principales parties prenantes sur l'adéquation du système de contrôles internes et
+                ainsi instaurer une confiance dans les opérations, la confiance dans la réalisation des objectifs de l'entreprise et une compréhension adéquate du risque résiduel.
+            </td>
+        </tr>
+        <tr>
+            <td>MEA03 Surveiller, évaluer et évaluer la conformité avec
+                exigences externes.</td>
+            <td>
+                Assurez-vous que l'entreprise respecte toutes les exigences externes applicables.
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <h5>3.3 Autres directive</h5><hr/>
+    <p>
+        Lors de la mise en œuvre des normes et des directives, les professionnels sont encouragés à rechercher d’autres directives
+        nécessaire. Cela pourrait provenir de l'audit et de l'assurance des systèmes d'information:<br/>
+        • des collègues de l’entreprise<br/>
+        • La gestion<br/>
+        • Organes de gouvernance au sein de l'entreprise, par exemple, comité d'audit<br/>
+    </p>
+    <b><h4>Terminologie</h4></b>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Terme</th>
+            <th scope="col">Définition</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Échantillonnage d'attribut</td>
+                <td>
+                    <p>
+                        Méthode pour sélectionner une partie d'une population en fonction de la présence ou de l'absence d'une certaine caractéristique.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+            <td>Échantillonnage d'audit</td>
+            <td>
+                <p>
+                    L'application de procédures d'audit à moins de 100% des éléments d'une population pour obtenir des éléments probants
+                    concernant une caractéristique particulière de la population
+                </p>
+            </td>
+        </tr>
+
+            <tr>
+                <td>Échantillonnage non statistique</td>
+                <td>
+                    <p>
+                        Méthode de sélection d’une partie de la population, sur la base de son propre jugement et de son expérience, afin de confirmer rapidement une proposition.
+                        Cette méthode ne permet pas de tirer des conclusions mathématiques sur l'ensemble de la population.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>Population</td>
+                <td>
+                    <p>
+                        L'ensemble complet de données à partir duquel un échantillon est sélectionné et sur lequel un auditeur de système d'information souhaite tirer des conclusions.
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Risque d'échantillonnage</td>
+                <td>
+                    <p>
+                        La probabilité qu'un auditeur d'IS ait abouti à une conclusion incorrecte, car un échantillon d'audit, plutôt que l'ensemble de la population, a été testé.
+                        <br/>
+                        Remarques sur la portée: Bien que le risque d'échantillonnage puisse être réduit à un niveau acceptable en utilisant
+                        une taille d'échantillon et une méthode de sélection appropriées, il ne peut jamais être éliminé.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>Stratification d'échantillonnage</td>
+                <td>
+                    <p>
+                        Processus consistant à diviser une population en sous-populations ayant des caractéristiques similaires explicitement
+                        définies, afin que chaque unité d'échantillonnage puisse appartenir à une seule strate
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Échantillonnage statistique</td>
+                <td>
+                    <p>
+                        Une méthode de sélection d'une partie d'une population, au moyen de calculs mathématiques et de probabilités,
+                        dans le but de tirer des conclusions scientifiquement et mathématiquement correctes concernant les caractéristiques de la population entière.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>Erreur tolérable</td>
+                <td>
+                    <p>
+                        Le maximum d'erreur dans la population que les professionnels sont disposés à accepter et continuent de conclure que l'objectif du test a été atteint.
+                        Pour les tests de corroboration, l’erreur tolérable est liée au jugement des professionnels sur l’importance relative. Dans les tests de conformité,
+                        il s’agit du taux maximum d’écart par rapport à une procédure de contrôle prescrite que les professionnels sont disposés à accepter.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>Échantillonnage variable</td>
+                <td>
+                    <p>
+                        Une technique d'échantillonnage utilisée pour estimer la valeur moyenne ou totale d'une population sur la base d'un échantillon;
+                        un modèle statistique utilisé pour projeter une caractéristique quantitative, telle qu'un montant monétaire
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <b><h4>Lien vers les directives</h4></b>
+    <p>
+        La présente norme ISACA s’appliquera à toutes les missions d’audit et d’assurance
+        des SI débutant à compter du 1er septembre 2014.
+    </p>
+</div>
+</body>
+</html>
