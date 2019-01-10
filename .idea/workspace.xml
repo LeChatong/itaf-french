@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7217d57-4db6-4287-b357-fb961b634e4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1001-chartes-d-audit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1002-organisational-independence.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1003-professional-independence.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1004-reasonable-expectation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1005-due-professional-care.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1006-proficiency.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1007-assertions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1008-criteria.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1201-engagement-planning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1202-risk-assessment-in-planning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1203-performance-and-supervision.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1204-materiality.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1205-evidence.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1206-using-the-work-of-other-experts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1207-irregularity-and-illegal-acts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1401-reporting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/1402-follow-up-activities.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2001-audit-charter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2002-organisational-independence.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2003-professional-independence.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2004-reasonable-expectation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2005-due-professional-care.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2006-proficiency.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2007-assertions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2008-criteria.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2201-engagement-planning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2202-risk-assessment-and-audit-planning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2203-performance-and-supervision.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2204-materiality.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2205-evidence.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2206-using-the-work-of-other-experts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2207-irregularity-and-illegal-acts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2208-sampling.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2401-reporting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/2402-follow-up-activities.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITAF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/itaf-french" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
